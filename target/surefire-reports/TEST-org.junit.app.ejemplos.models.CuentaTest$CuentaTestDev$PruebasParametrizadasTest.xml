@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.junit.app.ejemplos.models.CuentaTest$CuentaTestDev$PruebasParametrizadasTest" time="0.117" tests="31" errors="0" skipped="1" failures="4">
+  <properties>
+    <property name="java.specification.version" value="20"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Curso-JUnit-Mockito\junit-app\target\test-classes;C:\Curso-JUnit-Mockito\junit-app\target\classes;C:\Users\GonzaloJG\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.1\junit-jupiter-5.10.1.jar;C:\Users\GonzaloJG\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.1\junit-jupiter-api-5.10.1.jar;C:\Users\GonzaloJG\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\GonzaloJG\.m2\repository\org\junit\platform\junit-platform-commons\1.10.1\junit-platform-commons-1.10.1.jar;C:\Users\GonzaloJG\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\GonzaloJG\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.1\junit-jupiter-params-5.10.1.jar;C:\Users\GonzaloJG\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.1\junit-jupiter-engine-5.10.1.jar;C:\Users\GonzaloJG\.m2\repository\org\junit\platform\junit-platform-engine\1.10.1\junit-platform-engine-1.10.1.jar;C:\Users\GonzaloJG\.m2\repository\org\projectlombok\lombok\1.18.30\lombok-1.18.30.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Madrid"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="20"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="ES"/>
+    <property name="sun.boot.library.path" value="C:\Java\jdk-20.0.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\GonzaloJG\AppData\Local\Temp\surefire10296473041078288107\surefirebooter-20240414133040644_3.jar C:\Users\GonzaloJG\AppData\Local\Temp\surefire10296473041078288107 2024-04-14T13-30-39_072-jvmRun1 surefire-20240414133040644_1tmp surefire_0-20240414133040644_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Curso-JUnit-Mockito\junit-app\target\test-classes;C:\Curso-JUnit-Mockito\junit-app\target\classes;C:\Users\GonzaloJG\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.1\junit-jupiter-5.10.1.jar;C:\Users\GonzaloJG\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.1\junit-jupiter-api-5.10.1.jar;C:\Users\GonzaloJG\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\GonzaloJG\.m2\repository\org\junit\platform\junit-platform-commons\1.10.1\junit-platform-commons-1.10.1.jar;C:\Users\GonzaloJG\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\GonzaloJG\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.1\junit-jupiter-params-5.10.1.jar;C:\Users\GonzaloJG\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.1\junit-jupiter-engine-5.10.1.jar;C:\Users\GonzaloJG\.m2\repository\org\junit\platform\junit-platform-engine\1.10.1\junit-platform-engine-1.10.1.jar;C:\Users\GonzaloJG\.m2\repository\org\projectlombok\lombok\1.18.30\lombok-1.18.30.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\GonzaloJG"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-04-18"/>
+    <property name="java.home" value="C:\Java\jdk-20.0.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Curso-JUnit-Mockito\junit-app"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\GonzaloJG\AppData\Local\Temp\surefire10296473041078288107\surefirebooter-20240414133040644_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="20.0.1+9-29"/>
+    <property name="user.name" value="GonzaloJG"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\GonzaloJG\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\GONZAL~1\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2023.3.1"/>
+    <property name="java.version" value="20.0.1"/>
+    <property name="user.dir" value="C:\Curso-JUnit-Mockito\junit-app"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Java\jdk-20.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\AutoFirma\AutoFirma;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\GonzaloJG\AppData\Local\Microsoft\WindowsApps;C:\Users\GonzaloJG\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Java\jdk-11\bin;C:\Users\GonzaloJG\AppData\Roaming\npm;C:\Program Files\apache-maven-3.9.5\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="20.0.1+9-29"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="64.0"/>
+  </properties>
+  <testcase name="testSaldoCuentaDev" classname="org.junit.app.ejemplos.models.CuentaTest$CuentaTestDev" time="0.0">
+    <skipped type="org.opentest4j.TestAbortedException"><![CDATA[org.opentest4j.TestAbortedException: Assumption failed: assumption is not true
+	at org.junit.jupiter.api.Assumptions.throwAssumptionFailed(Assumptions.java:316)
+	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:115)
+	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:66)
+	at org.junit.app.ejemplos.models.CuentaTest$CuentaTestDev.testSaldoCuentaDev(CuentaTest.java:245)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+]]></skipped>
+    <system-out><![CDATA[iniciando el methodo
+finalizando el metodo de prueba
+]]></system-out>
+  </testcase>
+  <testcase name="testSaldoCuentaDev2" classname="org.junit.app.ejemplos.models.CuentaTest$CuentaTestDev" time="0.002">
+    <system-out><![CDATA[iniciando el methodo
+finalizando el metodo de prueba
+]]></system-out>
+  </testcase>
+  <testcase name="testDebitoCuentaMethodSource(String)[1]" classname="org.junit.app.ejemplos.models.CuentaTest$CuentaTestDev" time="0.03">
+    <system-out><![CDATA[iniciando el methodo
+finalizando el metodo de prueba
+]]></system-out>
+  </testcase>
+  <testcase name="testDebitoCuentaMethodSource(String)[2]" classname="org.junit.app.ejemplos.models.CuentaTest$CuentaTestDev" time="0.001">
+    <system-out><![CDATA[iniciando el methodo
+finalizando el metodo de prueba
+]]></system-out>
+  </testcase>
+  <testcase name="testDebitoCuentaMethodSource(String)[3]" classname="org.junit.app.ejemplos.models.CuentaTest$CuentaTestDev" time="0.002">
+    <system-out><![CDATA[iniciando el methodo
+finalizando el metodo de prueba
+]]></system-out>
+  </testcase>
+  <testcase name="testDebitoCuentaMethodSource(String)[4]" classname="org.junit.app.ejemplos.models.CuentaTest$CuentaTestDev" time="0.002">
+    <system-out><![CDATA[iniciando el methodo
+finalizando el metodo de prueba
+]]></system-out>
+  </testcase>
+  <testcase name="testDebitoCuentaMethodSource(String)[5]" classname="org.junit.app.ejemplos.models.CuentaTest$CuentaTestDev" time="0.002">
+    <system-out><![CDATA[iniciando el methodo
+finalizando el metodo de prueba
+]]></system-out>
+  </testcase>
+  <testcase name="testDebitoCuentaMethodSource(String)[6]" classname="org.junit.app.ejemplos.models.CuentaTest$CuentaTestDev" time="0.001">
+    <system-out><![CDATA[iniciando el methodo
+finalizando el metodo de prueba
+]]></system-out>
+  </testcase>
+  <testcase name="testDebitoCuentaRepetir(RepetitionInfo)[1]" classname="org.junit.app.ejemplos.models.CuentaTest$CuentaTestDev" time="0.008">
+    <system-out><![CDATA[iniciando el methodo
+finalizando el metodo de prueba
+]]></system-out>
+  </testcase>
+  <testcase name="testDebitoCuentaRepetir(RepetitionInfo)[2]" classname="org.junit.app.ejemplos.models.CuentaTest$CuentaTestDev" time="0.002">
+    <system-out><![CDATA[iniciando el methodo
+finalizando el metodo de prueba
+]]></system-out>
+  </testcase>
+  <testcase name="testDebitoCuentaRepetir(RepetitionInfo)[3]" classname="org.junit.app.ejemplos.models.CuentaTest$CuentaTestDev" time="0.013">
+    <system-out><![CDATA[iniciando el methodo
+estamos en la repeticion 3
+finalizando el metodo de prueba
+]]></system-out>
+  </testcase>
+  <testcase name="testDebitoCuentaRepetir(RepetitionInfo)[4]" classname="org.junit.app.ejemplos.models.CuentaTest$CuentaTestDev" time="0.001">
+    <system-out><![CDATA[iniciando el methodo
+finalizando el metodo de prueba
+]]></system-out>
+  </testcase>
+  <testcase name="testDebitoCuentaRepetir(RepetitionInfo)[5]" classname="org.junit.app.ejemplos.models.CuentaTest$CuentaTestDev" time="0.002">
+    <system-out><![CDATA[iniciando el methodo
+finalizando el metodo de prueba
+]]></system-out>
+  </testcase>
+  <testcase name="testDebitoCuentaCsvSource2(String, String, String, String)[1]" classname="org.junit.app.ejemplos.models.CuentaTest$CuentaTestDev$PruebasParametrizadasTest" time="0.011">
+    <failure message="expected: &lt;John&gt; but was: &lt;Andres&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <John> but was: <Andres>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at org.junit.app.ejemplos.models.CuentaTest$CuentaTestDev$PruebasParametrizadasTest.testDebitoCuentaCsvSource2(CuentaTest.java:310)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+]]></failure>
+    <system-out><![CDATA[iniciando el methodo
+200 -> 100
+finalizando el metodo de prueba
+]]></system-out>
+  </testcase>
+  <testcase name="testDebitoCuentaCsvSource2(String, String, String, String)[2]" classname="org.junit.app.ejemplos.models.CuentaTest$CuentaTestDev$PruebasParametrizadasTest" time="0.001">
+    <system-out><![CDATA[iniciando el methodo
+250 -> 200
+finalizando el metodo de prueba
+]]></system-out>
+  </testcase>
+  <testcase name="testDebitoCuentaCsvSource2(String, String, String, String)[3]" classname="org.junit.app.ejemplos.models.CuentaTest$CuentaTestDev$PruebasParametrizadasTest" time="0.004">
+    <failure message="expected: &lt;maria&gt; but was: &lt;Maria&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <maria> but was: <Maria>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at org.junit.app.ejemplos.models.CuentaTest$CuentaTestDev$PruebasParametrizadasTest.testDebitoCuentaCsvSource2(CuentaTest.java:310)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+]]></failure>
+    <system-out><![CDATA[iniciando el methodo
+300 -> 300
+finalizando el metodo de prueba
+]]></system-out>
+  </testcase>
+  <testcase name="testDebitoCuentaCsvSource2(String, String, String, String)[4]" classname="org.junit.app.ejemplos.models.CuentaTest$CuentaTestDev$PruebasParametrizadasTest" time="0.001">
+    <system-out><![CDATA[iniciando el methodo
+510 -> 500
+finalizando el metodo de prueba
+]]></system-out>
+  </testcase>
+  <testcase name="testDebitoCuentaCsvSource2(String, String, String, String)[5]" classname="org.junit.app.ejemplos.models.CuentaTest$CuentaTestDev$PruebasParametrizadasTest" time="0.002">
+    <failure message="expected: &lt;Lucas&gt; but was: &lt;Luca&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <Lucas> but was: <Luca>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at org.junit.app.ejemplos.models.CuentaTest$CuentaTestDev$PruebasParametrizadasTest.testDebitoCuentaCsvSource2(CuentaTest.java:310)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+]]></failure>
+    <system-out><![CDATA[iniciando el methodo
+750 -> 700
+finalizando el metodo de prueba
+]]></system-out>
+  </testcase>
+  <testcase name="testDebitoCuentaCsvSource2(String, String, String, String)[6]" classname="org.junit.app.ejemplos.models.CuentaTest$CuentaTestDev$PruebasParametrizadasTest" time="0.003">
+    <failure message="expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:31)
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:183)
+	at org.junit.app.ejemplos.models.CuentaTest$CuentaTestDev$PruebasParametrizadasTest.testDebitoCuentaCsvSource2(CuentaTest.java:311)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+]]></failure>
+    <system-out><![CDATA[iniciando el methodo
+1000 -> 1000
+finalizando el metodo de prueba
+]]></system-out>
+  </testcase>
+  <testcase name="testDebitoCuentaCsvSource(String, String)[1]" classname="org.junit.app.ejemplos.models.CuentaTest$CuentaTestDev$PruebasParametrizadasTest" time="0.002">
+    <system-out><![CDATA[iniciando el methodo
+1 -> 100
+finalizando el metodo de prueba
+]]></system-out>
+  </testcase>
+  <testcase name="testDebitoCuentaCsvSource(String, String)[2]" classname="org.junit.app.ejemplos.models.CuentaTest$CuentaTestDev$PruebasParametrizadasTest" time="0.002">
+    <system-out><![CDATA[iniciando el methodo
+2 -> 200
+finalizando el metodo de prueba
+]]></system-out>
+  </testcase>
+  <testcase name="testDebitoCuentaCsvSource(String, String)[3]" classname="org.junit.app.ejemplos.models.CuentaTest$CuentaTestDev$PruebasParametrizadasTest" time="0.002">
+    <system-out><![CDATA[iniciando el methodo
+3 -> 300
+finalizando el metodo de prueba
+]]></system-out>
+  </testcase>
+  <testcase name="testDebitoCuentaCsvSource(String, String)[4]" classname="org.junit.app.ejemplos.models.CuentaTest$CuentaTestDev$PruebasParametrizadasTest" time="0.001">
+    <system-out><![CDATA[iniciando el methodo
+4 -> 500
+finalizando el metodo de prueba
+]]></system-out>
+  </testcase>
+  <testcase name="testDebitoCuentaCsvSource(String, String)[5]" classname="org.junit.app.ejemplos.models.CuentaTest$CuentaTestDev$PruebasParametrizadasTest" time="0.001">
+    <system-out><![CDATA[iniciando el methodo
+5 -> 700
+finalizando el metodo de prueba
+]]></system-out>
+  </testcase>
+  <testcase name="testDebitoCuentaCsvSource(String, String)[6]" classname="org.junit.app.ejemplos.models.CuentaTest$CuentaTestDev$PruebasParametrizadasTest" time="0.001">
+    <system-out><![CDATA[iniciando el methodo
+6 -> 1000
+finalizando el metodo de prueba
+]]></system-out>
+  </testcase>
+  <testcase name="testDebitoCuentaValueSource(String)[1]" classname="org.junit.app.ejemplos.models.CuentaTest$CuentaTestDev$PruebasParametrizadasTest" time="0.001">
+    <system-out><![CDATA[iniciando el methodo
+finalizando el metodo de prueba
+]]></system-out>
+  </testcase>
+  <testcase name="testDebitoCuentaValueSource(String)[2]" classname="org.junit.app.ejemplos.models.CuentaTest$CuentaTestDev$PruebasParametrizadasTest" time="0.001">
+    <system-out><![CDATA[iniciando el methodo
+finalizando el metodo de prueba
+]]></system-out>
+  </testcase>
+  <testcase name="testDebitoCuentaValueSource(String)[3]" classname="org.junit.app.ejemplos.models.CuentaTest$CuentaTestDev$PruebasParametrizadasTest" time="0.001">
+    <system-out><![CDATA[iniciando el methodo
+finalizando el metodo de prueba
+]]></system-out>
+  </testcase>
+  <testcase name="testDebitoCuentaValueSource(String)[4]" classname="org.junit.app.ejemplos.models.CuentaTest$CuentaTestDev$PruebasParametrizadasTest" time="0.002">
+    <system-out><![CDATA[iniciando el methodo
+finalizando el metodo de prueba
+]]></system-out>
+  </testcase>
+  <testcase name="testDebitoCuentaValueSource(String)[5]" classname="org.junit.app.ejemplos.models.CuentaTest$CuentaTestDev$PruebasParametrizadasTest" time="0.002">
+    <system-out><![CDATA[iniciando el methodo
+finalizando el metodo de prueba
+]]></system-out>
+  </testcase>
+  <testcase name="testDebitoCuentaValueSource(String)[6]" classname="org.junit.app.ejemplos.models.CuentaTest$CuentaTestDev$PruebasParametrizadasTest" time="0.001">
+    <system-out><![CDATA[iniciando el methodo
+finalizando el metodo de prueba
+]]></system-out>
+  </testcase>
+</testsuite>

@@ -1,0 +1,46 @@
+-------------------------------------------------------------------------------
+Test set: org.junit.app.ejemplos.models.CuentaTest$VariableAmbienteTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 1, Skipped: 1, Time elapsed: 0.026 s <<< FAILURE! -- in org.junit.app.ejemplos.models.CuentaTest$VariableAmbienteTest
+org.junit.app.ejemplos.models.CuentaTest$VariableAmbienteTest.testJavaHome -- Time elapsed: 0.002 s <<< ERROR!
+org.junit.jupiter.engine.execution.ConditionEvaluationException: 
+Failed to evaluate condition [org.junit.jupiter.api.condition.EnabledIfEnvironmentVariableCondition]: Unknown character property name {r} near index 4
+C:\Program Files\Java\jdk-11
+    ^
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.tryAdvance(StreamSpliterators.java:300)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.tryAdvance(Streams.java:723)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.util.regex.PatternSyntaxException: Unknown character property name {r} near index 4
+C:\Program Files\Java\jdk-11
+    ^
+	at java.base/java.util.regex.Pattern.error(Pattern.java:2064)
+	at java.base/java.util.regex.Pattern.family(Pattern.java:2948)
+	at java.base/java.util.regex.Pattern.sequence(Pattern.java:2192)
+	at java.base/java.util.regex.Pattern.expr(Pattern.java:2105)
+	at java.base/java.util.regex.Pattern.compile(Pattern.java:1805)
+	at java.base/java.util.regex.Pattern.<init>(Pattern.java:1452)
+	at java.base/java.util.regex.Pattern.compile(Pattern.java:1091)
+	at java.base/java.util.regex.Pattern.matches(Pattern.java:1196)
+	at java.base/java.lang.String.matches(String.java:2855)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.tryAdvance(ArrayList.java:1602)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	... 14 more
+
